@@ -1,0 +1,186 @@
+.description{
+    font-size: 20px;
+}
+.patient-icon,.badge-primary{
+    font-size:18px;
+}
+.table th{
+    font-size: 20px;
+}
+.table td{
+    font-size: 18px;
+}
+.post-info{
+    font-size: 20px;
+}
+.card-header h2{
+    font-size: 24px;
+}
+.form-group label{
+    font-size:20px;
+}
+.custom-tabs .react-tabs .react-tabs__tab-list .react-tabs__tab{
+    font-size: 18px !important;
+}
+.page-header h2{
+    font-size: 1.8rem;
+}
+.form-group{
+    font-size: 18px;
+}
+.result-data p.title{
+    font-size: 28px;
+}
+.total-results{
+    font-size: 18px;
+}
+.btn.btn-sm{
+    font-size: 18px !important;
+}
+input[type="text"] {
+    font-size:18px !important;
+}
+.card-body h5{
+    font-size:22px;
+}
+.text-white{
+    font-size: 18px;
+}
+html .btn-primary{
+    font-size:18px;
+}
+.btn-default{
+    font-size:18px !important;
+}
+.form-control{
+    font-size:20px !important;
+}
+.btn-warning{
+    font-size:18px;
+}
+.nav-link{
+    font-size: 26px;
+}
+.userbox .profile-info span.name,role{
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.userbox .role{
+    font-size: 16px;
+}
+.admin-dropdown li a{
+    font-size: 18px !important;
+    margin: 5px 0px;
+}
+.body-sign .card-sign .card-title-sign .title{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+ul.nav-main li a{
+    font-size: 1.5rem;
+}
+.header.header-nav-menu .header-nav-main nav > ul > li > a{
+    font-size: 18px;
+}
+
+.tm-btn{
+    cursor: pointer;
+    padding: 0px 6px !important;
+    font-size: 14px !important;
+    }
+    #tm-card{
+        overflow: hidden;
+    }
+    .fs-18{
+        font-size: 18px;
+    }
+    .pagination li{
+        padding: 0px 5px 10px 5px;
+    }
+    .tm-input{
+   width: 5%;
+    margin: 0px 5px;
+    }
+    .title {
+    font-size:12px;
+    }
+    .fs-12{
+    font-size:12px;
+    }
+    #canvas{
+    // object-fit: contain;
+    // width: 100%;
+    // height: auto;
+    // max-width: 100%;
+    }
+    .pagination li a{
+        font-size: 14px !important;
+    }
+    .tm-text {
+        font-size: 12px;
+    }
+    .pages.pagination {
+        padding: 0px 10px !important;
+    }
+    .pagination li{
+        width: 100%;
+        max-width: 100%;
+    }
+    .pagination li a{
+        width: 100%;
+        max-width: 100%;
+    }
+    .tm-text-wrap{
+        width: 170px;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: black;
+    }
+    .tm-text-wrap:hover{
+        color: black;
+    }
+    .tm-img{
+        width: 640px;
+        height: 480px;
+        padding: 2px;
+    }
+    
+
+    @media only screen and (min-width: 768px){
+        // .flex-result {
+        //     flex: 0 0 100%;
+        //     max-width: 100%;
+        // }
+        .pagination li{
+            padding: 2px !important;
+            float: none;
+            margin: 0 auto !important;
+        }
+        .pagination{
+            margin-left:2px !important;
+        }
+        .tm-text-wrap{
+            width: 150px;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+            display: inline-block;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: black;
+        }
+       
+       
+    }
+//         @media screen and(min-width: 1200px){
+//             .flex-result {
+//                 flex: 0 0 100%;
+//                 max-width: 100%;
+//             }
+//    }

@@ -1,0 +1,42 @@
+
+IP: 3.218.196.33
+Username: balaji
+Password: B@lajj!
+
+Frontend server :
+*****************
+#to build locally
+sudo docker build --rm -f Dockerfile -t optisolbusiness/trevor:intelliscope_frontend_dev .
+docker push optisolbusiness/trevor:intelliscope_frontend_dev
+
+
+sudo docker stop intelliscope_frontend_dev
+sudo docker rm intelliscope_frontend_dev
+sudo docker pull optisolbusiness/trevor:intelliscope_frontend_dev
+sudo docker run -it -d -p 7001:7001 --name intelliscope_frontend_dev optisolbusiness/trevor:intelliscope_frontend_dev
+--------------------------------------------------------------------------------------------------------
+
+Backend server :
+****************
+#to build locally
+sudo docker build --rm -f Dockerfile -t optisolbusiness/trevor:intelliscope_backend_dev .
+docker push optisolbusiness/trevor:intelliscope_backend_dev
+
+
+sudo docker stop intelliscope_backend_dev
+sudo docker rm intelliscope_backend_dev
+sudo docker pull optisolbusiness/trevor:intelliscope_backend_dev
+sudo docker run -it -d -p 7000:7000 --name intelliscope_backend_dev optisolbusiness/trevor:intelliscope_backend_dev
+--------------------------------------------------------------------------------------------------------
+Aws access
+
+  aws ec2 describe-instance-status --instance-ids i-0b3a3eddd729dc7e0
+  aws ec2 stop-instances --instance-ids i-0b3a3eddd729dc7e0
+  aws ec2 start-instances --instance-ids i-0b3a3eddd729dc7e0
+
+# To restart docker
+*******************
+  sudo docker start intelliscope_frontend_dev
+  sudo docker start intelliscope_backend_dev
+
+  ---------------------------------------------------------------------------------------------------------
